@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio is built using Tailwindcss as primary ui library.
 
 ## Available Scripts
 
