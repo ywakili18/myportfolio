@@ -1,44 +1,29 @@
 import React from 'react'
 import {
-  DiHtml5,
-  DiCss3,
-  DiJavascript1,
-  DiNodejs,
-  DiGithubBadge,
-  DiReact,
-  DiPostgresql
-} from 'react-icons/di'
-import { SiTailwindcss } from 'react-icons/si'
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiNodeDotJs,
+  SiGithub,
+  SiReact,
+  SiPostgresql
+} from 'react-icons/si'
+
 const Skills = () => {
   return (
-    <div class="border">
-      <p>skills</p>
+    <div class="border text-center">
+      <p class="text-5xl text-green-500">Technologies</p>
       {/* skills icon container */}
-      <div>
-        <p>
-          <DiHtml5 />
-        </p>
-        <p>
-          <DiCss3 />
-        </p>
-        <p>
-          <DiJavascript1 />
-        </p>
-        <p>
-          <DiNodejs />
-        </p>
-        <p>
-          <DiGithubBadge />
-        </p>
-        <p>
-          <DiReact />
-        </p>
-        <p>
-          <DiPostgresql />
-        </p>
-        <p>
-          <SiTailwindcss />
-        </p>
+      <div class="text-green-500 text-5xl mt-60 sm:mt-20 flex justify-around">
+        <SiHtml5 />
+        <SiCss3 />
+        <SiJavascript />
+        <SiNodeDotJs />
+        <SiGithub />
+        <SiReact />
+        <SiPostgresql />
+        <SiTailwindcss />
       </div>
     </div>
   )

@@ -14,7 +14,7 @@ export const Home = () => {
             Hello, world!{' '}
           </p>
           I'm
-          <mark class="bg-transparent text-green-400"> Yousof</mark>
+          <mark class="bg-transparent text-green-400 "> Yousof</mark>
         </div>
 
         {/* Typing animation container */}

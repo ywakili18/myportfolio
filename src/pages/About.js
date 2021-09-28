@@ -3,7 +3,6 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      <p>Hello world!</p>
       <p>
         I’m{' '}
         <mark class="bg-transparent text-green-400">
