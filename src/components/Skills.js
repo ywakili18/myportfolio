@@ -22,6 +22,9 @@ const Skills = () => {
           <DiCss3 />
         </p>
         <p>
+          <DiJavascript1 />
+        </p>
+        <p>
           <DiNodejs />
         </p>
         <p>
@@ -33,7 +36,9 @@ const Skills = () => {
         <p>
           <DiPostgresql />
         </p>
-        <p></p>
+        <p>
+          <SiTailwindcss />
+        </p>
       </div>
     </div>
   )
