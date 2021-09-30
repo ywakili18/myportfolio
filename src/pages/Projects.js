@@ -4,7 +4,9 @@ import Projectcards from '../components/Projectcards'
 const Projects = () => {
   return (
     <div>
-      <p class="text-7xl text-center mt-10 border">Projects</p>
+      <p class="text-7xl text-center mt-10 text-red-50 bg-indigo-900">
+        Projects
+      </p>
       <Projectcards />
     </div>
   )

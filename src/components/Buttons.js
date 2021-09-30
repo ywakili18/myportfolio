@@ -5,16 +5,16 @@ const Buttons = () => {
   return (
     <div>
       {/* Primary buttons container */}
-      <div class="">
+      <div class="mt-5 mb-5">
         {/* Links */}
         <div class="inline-flex">
           <a class="" href="http://yousofwpokemongoldmini.surge.sh/">
             <button
               class=" 
               text-yellow-500
-              text-xl sm:text-3xl ml-20
+              text-xl sm:text-2xl ml-20
               hover:text-red-600 
-              focus:ring  transition-all m-2 sm:mt-3
+              focus:ring  transition-all m-2 sm:mt-3 underline
               "
             >
               Live Site
@@ -27,8 +27,8 @@ const Buttons = () => {
             <button
               class=" 
               w-24
-              text-4xl
-              ml-12
+              text-3xl sm:text-4xl
+              ml-8
               text-yellow-500
               hover:text-red-700
               focus:ring  transition-all"

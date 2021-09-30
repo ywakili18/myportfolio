@@ -37,7 +37,7 @@ const PokeGoldCard = () => {
         </div>
         {/* gif showcasing work container */}
         <div class="flex justify-center ">
-          <img class="rounded-3xl mt-5" src={pokemini} />
+          <img class="mt-5" src={pokemini} />
         </div>
       </div>
     </div>
