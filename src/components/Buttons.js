@@ -5,63 +5,40 @@ const Buttons = () => {
   return (
     <div>
       {/* Primary buttons container */}
-      <div>
+      <div class="">
         {/* Links */}
-        <div class="flex justify-evenly">
-          <a href="http://yousofwpokemongoldmini.surge.sh/">
+        <div class="inline-flex">
+          <a class="" href="http://yousofwpokemongoldmini.surge.sh/">
             <button
               class=" 
-                  bg-yellow-50 
-                  py-2 px-2
-                  rounded-full
-                  text-base sm:text-lg md:text-xl 
-                  tracking-wide text-yellow-500 
-                  hover:shadow-2xl hover:bg-yellow-200
-                  mt-5 transform hover:scale-110 motion-reduce:transform-none"
+              text-yellow-500
+              text-xl sm:text-3xl ml-20
+              hover:text-red-600 
+              focus:ring  transition-all m-2 sm:mt-3
+              "
             >
               Live Site
             </button>
           </a>
-          <a href="https://github.com/ywakili18/Pokemon-Mini">
+          <a
+            class=" inline-flex text-center"
+            href="https://github.com/ywakili18/Pokemon-Mini"
+          >
             <button
               class=" 
-                  bg-yellow-50 
-                  py-2 px-2
-                  rounded-full
-                  text-2xl  md:text-3xl
-                  tracking-wide text-yellow-500 
-                  hover:shadow-2xl hover:bg-yellow-200
-                  mt-5 transform hover:scale-110 motion-reduce:transform-none"
+              w-24
+              text-4xl
+              ml-12
+              text-yellow-500
+              hover:text-red-700
+              focus:ring  transition-all"
             >
               <SiGithub />
             </button>
           </a>
         </div>
-
-        {/* button to showcase tech used */}
-        <div class="flex justify-center">
-          <button
-            onClick={() => setShowText(!showText)}
-            class="
-                    bg-yellow-50 
-                    px-3 py-2 
-                    text-sm tracking-wide text-yellow-500 
-                    rounded-full hover:shadow-2xl hover:bg-yellow-200
-                    mt-5 transform hover:scale-110 motion-reduce:transform-none"
-          >
-            {showText ? 'Hide Technologies used' : 'Show Technologies used'}
-          </button>
-        </div>
-        {showText && (
-          <div class="text-3xl text-yellow-500 flex justify-evenly mt-5">
-            <SiHtml5 />
-            <SiCss3 />
-            <SiJavascript />
-          </div>
-        )}
       </div>
     </div>
   )
 }
-
 export default Buttons

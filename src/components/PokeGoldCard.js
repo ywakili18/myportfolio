@@ -14,7 +14,7 @@ const PokeGoldCard = () => {
             {/* Title */}
             <p
               class="
-                text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
+                text-3xl sm:text-4xl md:text-5xl lg:text-5xl 
                 text-transparent bg-clip-text 
                 bg-gradient-to-br from-red-600 to-yellow-600 mt-10 "
             >
