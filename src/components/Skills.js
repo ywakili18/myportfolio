@@ -12,18 +12,24 @@ import {
 
 const Skills = () => {
   return (
-    <div class="border text-center">
-      <p class="text-5xl text-green-500">Technologies</p>
+    <div class="text-center mt-5 rounded-3xl">
+      <p class="text-xl sm:text-2xl md:text-3xl text-green-50 underline">
+        Skill Set
+      </p>
       {/* skills icon container */}
-      <div class="text-green-500 text-5xl mt-60 sm:mt-20 flex justify-around">
-        <SiHtml5 />
-        <SiCss3 />
-        <SiJavascript />
-        <SiNodeDotJs />
-        <SiGithub />
-        <SiReact />
-        <SiPostgresql />
-        <SiTailwindcss />
+      <div class="text-green-50 text-xl sm:text-2xl mt-5 rounded-2xl">
+        <div class="flex justify-evenly">
+          <SiHtml5 />
+          <SiCss3 />
+          <SiJavascript />
+          <SiNodeDotJs />
+        </div>
+        <div class="flex justify-evenly mt-5">
+          <SiGithub />
+          <SiReact />
+          <SiPostgresql />
+          <SiTailwindcss />
+        </div>
       </div>
     </div>
   )
