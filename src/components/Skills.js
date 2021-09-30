@@ -13,12 +13,12 @@ import {
 const Skills = () => {
   return (
     <div class="text-center mt-5 rounded-3xl">
-      <p class="text-xl sm:text-2xl md:text-3xl text-green-50 underline">
-        Skill Set
+      <p class="text-2xl sm:text-3xl md:text-4xl text-green-50 ">
+        Technologies
       </p>
       {/* skills icon container */}
-      <div class="text-green-50 text-xl sm:text-2xl mt-5 rounded-2xl">
-        <div class="flex justify-evenly">
+      <div class="text-green-50 text-3xl sm:text-4xl mt-5 rounded-2xl">
+        <div class="flex justify-evenly ">
           <SiHtml5 />
           <SiCss3 />
           <SiJavascript />

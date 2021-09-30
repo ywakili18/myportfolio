@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
 import pokemini from '../images/pokemini.gif'
-import { SiHtml5, SiCss3, SiJavascript } from 'react-icons/si'
-
+import Buttons from './Buttons'
 const PokeGoldCard = () => {
-  const [showText, setShowText] = useState(false)
-
   return (
     // Main container
     <div>
@@ -23,6 +20,8 @@ const PokeGoldCard = () => {
             >
               Pokemon Gold Mini
             </p>
+            {/* Button Component */}
+            <Buttons />
             {/* Description */}
             <p
               class="
@@ -37,31 +36,10 @@ const PokeGoldCard = () => {
           </div>
         </div>
         {/* gif showcasing work container */}
-        <div class="flex justify-center">
+        <div class="flex justify-center ">
           <img class="rounded-3xl mt-5" src={pokemini} />
         </div>
       </div>
-      {/* Technolgies */}
-      <div class="flex justify-center">
-        <button
-          onClick={() => setShowText(!showText)}
-          class="
-          bg-yellow-50 
-          px-3 py-2 
-          text-sm tracking-wide text-yellow-500 
-          rounded-full hover:shadow-2xl hover:bg-yellow-400
-          underline mt-5"
-        >
-          {showText ? 'Hide Technologies used' : 'Show Technologies used'}
-        </button>
-      </div>
-      {showText && (
-        <div class="text-3xl text-yellow-500 flex justify-evenly mt-5">
-          <SiHtml5 />
-          <SiCss3 />
-          <SiJavascript />
-        </div>
-      )}
     </div>
   )
 }

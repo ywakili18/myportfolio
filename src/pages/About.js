@@ -1,8 +1,9 @@
 import React from 'react'
-
+import Skills from '../components/Skills'
 const About = () => {
   return (
     <div>
+      <Skills />
       <p>
         I’m{' '}
         <mark class="bg-transparent text-green-400">
