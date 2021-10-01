@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 body {
   background-color: rgb(36, 47, 63);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: white;
   margin: 0;
   padding: 0;

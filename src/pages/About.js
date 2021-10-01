@@ -1,45 +1,23 @@
 import React from 'react'
 import Skills from '../components/Skills'
+import Navbar from '../components/Navbar'
 const About = () => {
   return (
     <div>
       <Skills />
-      <p>
-        I’m{' '}
-        <mark class="bg-transparent text-green-400">
-          Yousof Wakili. I love building responsive webpages.
-        </mark>
-      </p>
-      with an emphasis on the{' '}
-      <mark class="bg-transparent text-green-400">front-end. </mark>
-      <p>
-        Previously, I worked in the telecom tech space wearing many different
-        hats-primarily as a{' '}
-        <mark class="bg-transparent text-green-400">
-          leader, communicator, and handling the day to day tasks as business
-          manager.
-        </mark>
-      </p>
-      <p>
-        Working on the client side, communicating and{' '}
-        <mark class="bg-transparent text-green-400">
-          understanding those of various backgrounds,
-        </mark>{' '}
-        is what inspired me becoming and pursuing my passion as a software
-        engineer.
-      </p>
-      <p>
-        I have a firm believe that techonology leads the world today and can
-        have a positive global impact. My goal is to improve the lives of those
-        are who underpriveleged by{' '}
-        <mark class="bg-transparent text-green-400">
-          inspiring, empowering, and creating
-        </mark>{' '}
-        tech that will improve the lives of others.
-      </p>
-      <p>
-        In my spare time, I enjoy many hobbies such as boxing, basketball, and
-        enjoying tea/coffee.
+      <p class="text-3xl">
+        My name is Yousof Wakili. I am full-stack software engineer with an
+        emphasis on the front-end. I enjoy creating dynamic, responsive, and
+        intuitive web applications. When building web applications, I think of
+        the end result: the user. My past ventures in the telecom technology
+        space wearing many different hats--primarily leading business teams in
+        surpassing quotas/goals along with developing their careers. My passion
+        for software development stemmed from working in telecom and a personal
+        hobby of building computers. When utilizing various Customer Relation
+        Management (CRM) tools and prensenting app functionality/features to
+        clients, it ultimately led me to take my first programming course: Into
+        to Java back in 2016. Fast forward today, I pursued what was a small
+        hobby, into my career.
       </p>
     </div>
   )
