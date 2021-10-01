@@ -8,19 +8,19 @@ const PokeGoldCard = () => {
       class="transition 
     duration-300 ease-in-out
     transform hover:-translate-y-1 
-    hover:scale-90 bg-gray-800 mt-40
-    rounded-3xl"
+    hover:scale-90 bg-gray-800 flex border
+    rounded-3xl  sm:w-3/5 md:w-1/2 lg:p-20 mt-40"
     >
       {/* Main card container */}
-      <div class="flex-col justify-center mt-5 shadow-inner">
+      <div class="flex-col justify-center mt-10 shadow-inner">
         {/* Pokemon-Gold mini container */}
-        <div class="w-full h-full">
+        <div class=" ">
           {/* Pokemon Description */}
           <div class="text-center break-all">
             {/* Title */}
             <p
               class="
-                text-3xl sm:text-4xl md:text-5xl lg:text-5xl 
+                text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
                 text-transparent bg-clip-text 
                 bg-gradient-to-br from-red-600 to-yellow-600"
             >
@@ -29,7 +29,7 @@ const PokeGoldCard = () => {
             {/* Description */}
             <p
               class="
-                  text-base sm:text-lg md:text-xl break-normal 
+                  text-sm sm:text-lg md:text-base break-normal 
                   text-yellow-500
                   mt-5 italic"
             >
@@ -42,8 +42,8 @@ const PokeGoldCard = () => {
           </div>
         </div>
         {/* gif showcasing work container */}
-        <div class="flex justify-center rounded-3xl object-contain">
-          <img class="mt-2 rounded-3xl" src={pokemini} />
+        <div class="flex justify-center">
+          <img class="mt-2 h-60 rounded-3xl" src={pokemini} />
         </div>
       </div>
     </div>

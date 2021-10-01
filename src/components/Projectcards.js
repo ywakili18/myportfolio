@@ -3,7 +3,8 @@ import React from 'react'
 
 const Projectcards = () => {
   return (
-    <div>
+    <div class="sm:flex">
+      <PokeGoldCard />
       <PokeGoldCard />
     </div>
   )

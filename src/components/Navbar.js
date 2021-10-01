@@ -2,12 +2,12 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
-    <nav class="flex justify-between p-5 text-xl sm:text-3xl">
+    <nav class="flex justify-between p-5 text-l sm:text-2xl fixed top-0 inset-x-0">
       <NavLink
         className="transition 
         duration-300 ease-in-out
         transform hover:-translate-y-1 
-        hover:scale-110 border-green-600 border-8 p-1 
+        hover:scale-110 border-green-600 border-8 p-1
         rounded-full"
         to="/"
       >

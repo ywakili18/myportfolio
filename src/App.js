@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <div>
+    <div class="py-16">
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
