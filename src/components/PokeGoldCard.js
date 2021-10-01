@@ -26,19 +26,19 @@ const PokeGoldCard = () => {
             >
               Pokemon Gold Mini
             </p>
-            {/* Button Component */}
-            <Buttons />
             {/* Description */}
             <p
               class="
                   text-base sm:text-lg md:text-xl break-normal 
-                  text-yellow-600
-                  mt-5 italic "
+                  text-yellow-500
+                  mt-5 italic"
             >
               Pokemon Gold Mini is an HTML, CSS, and Javascript game hosted on
               Heroku. This Pokemon inspired game lets you choose between two
               Pokemon to battle and determine a winner!
             </p>
+            {/* Button Component */}
+            <Buttons />
           </div>
         </div>
         {/* gif showcasing work container */}

@@ -8,10 +8,10 @@ export const Home = () => {
       <div class="mt-60 sm:mt-60">
         {/* Name description container */}
         {/* default text is 3xl for mobile  */}
-        <div class="text-6xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl">
+        <div class="text-6xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl">
           <p>
             {/* used mark to change specific text color */}
-            Hello, world!{' '}
+            Hello, World!{' '}
           </p>
           I'm
           <mark class="bg-transparent text-green-400 "> Yousof</mark>

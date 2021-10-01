@@ -19,19 +19,46 @@ const ContactCard = () => {
           your hiring or business needs.
         </p>
       </div>
-      <div class="mt-10 mb-10">
-        <h1 class="text-green-600 justify-center flex text-4xl">
-          <AiFillLinkedin />
-          <AiFillGithub />
-        </h1>
-        <a
-          target="_blank"
-          href="mailto:ywakili18@gmail.com?subject=hello world"
-          class="text-green-600 justify-center flex text-2xl mt-4"
-        >
-          ywakili18@gmail.com
+
+      <div class="mt-10 mb-10 flex justify-center">
+        {/* Social media links icons */}
+        <a>
+          <button
+            class="text-green-50 
+          text-6xl sm:text-6xl 
+              hover:text-green-500 
+              focus:ring  transition-all  "
+          >
+            <AiFillLinkedin />
+          </button>
+        </a>
+        <a>
+          <button
+            class="text-green-50 
+              text-6xl sm:text-6xl 
+              hover:text-green-500 
+              focus:ring  transition-all  "
+          >
+            <AiFillGithub />
+          </button>
         </a>
       </div>
+
+      {/* email container */}
+      <a
+        target="_blank"
+        href="mailto:ywakili18@gmail.com?subject=hello world"
+        class="text-green-600 justify-center flex text-2xl mt-4"
+      >
+        <button
+          class="text-green-50 
+              text-4xl sm:text-4xl 
+              hover:text-green-500 
+              focus:ring  transition-all  "
+        >
+          ywakili18@gmail.com
+        </button>
+      </a>
     </div>
   )
 }

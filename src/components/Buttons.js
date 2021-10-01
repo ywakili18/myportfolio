@@ -11,10 +11,10 @@ const Buttons = () => {
           <a class="" href="http://yousofwpokemongoldmini.surge.sh/">
             <button
               class=" 
-              text-yellow-600
-              text-xl sm:text-2xl ml-20
+              text-yellow-500
+              text-l sm:text-xl ml-20
               hover:text-red-800 
-              focus:ring  transition-all m-2 sm:mt-3 underline
+              focus:ring  transition-all m-2 sm:mt-3 underline 
               "
             >
               Live Site
@@ -29,7 +29,7 @@ const Buttons = () => {
               w-24
               text-3xl sm:text-4xl
               ml-8
-              text-yellow-600
+              text-yellow-500
               hover:text-red-800
               focus:ring  transition-all"
             >
