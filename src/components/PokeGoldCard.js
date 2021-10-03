@@ -8,11 +8,11 @@ const PokeGoldCard = () => {
       class="transition 
     duration-300 ease-in-out
     transform hover:-translate-y-1 
-    hover:scale-90 bg-gray-800 flex  
-     sm:w-3/5 md:w-1/2 lg:p-20 "
+    hover:scale-90  flex  
+     sm:w-3/5 md:w-1/2 shadow-2xl lg:p-20 "
     >
       {/* Main card container */}
-      <div class="flex-col justify-center mt-10 shadow-inner">
+      <div class="flex-col justify-center mt-10 ">
         {/* Pokemon-Gold mini container */}
         <div class=" ">
           {/* Pokemon Description */}

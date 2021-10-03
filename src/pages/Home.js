@@ -20,10 +20,9 @@ export const Home = () => {
         class="mt-36 sm:mt-40"
       >
         {/* Name description container */}
-        <div class="text-6xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl">
-          <p>Hello, World! </p>
-          I'm
-          <span class="bg-transparent text-blue-300 "> Yousof</span>
+        <div class="text-6xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl p-10 ">
+          Yousof.
+          <span class="text-blue-300 ">Wakili</span>
         </div>
 
         {/* Typing animation container */}
@@ -35,7 +34,12 @@ export const Home = () => {
         >
           <Typewriter
             options={{
-              strings: ['Front-End Engineer', 'Deep Thinker', 'Problem Solver'],
+              strings: [
+                'Full Stack Engineer',
+                'MERN  Developer',
+                'Deep Learner',
+                'Problem Solver'
+              ],
               autoStart: true,
               loop: true,
               delay: 20,

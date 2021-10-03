@@ -8,11 +8,11 @@ const DvlprCard = () => {
       class="transition 
       duration-300 ease-in-out
       transform hover:-translate-y-1 
-      hover:scale-90 bg-gray-800 flex shadow-xl
+      hover:scale-90 shadow-2xl flex 
        sm:w-3/5 md:w-1/2 lg:p-20"
     >
       {/* Main card container */}
-      <div class=" justify-center  shadow-inner">
+      <div class=" justify-center ">
         {/* Dvlpr mini container */}
         <div class=" ">
           {/* Dvlpr Description */}

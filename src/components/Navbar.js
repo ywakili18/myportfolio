@@ -9,7 +9,7 @@ const Navbar = () => {
             className="p-2 sm:p-2 rounded-2xl text-blue-300 border-2"
             to="/"
           >
-            y.w
+            یوسف
           </NavLink>
         </div>
         <NavLink
