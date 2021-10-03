@@ -13,11 +13,11 @@ import {
 
 const Skills = () => {
   return (
-    <div class="text-center sm:flex justify-evenly p-10 bg-gray-800">
+    <div class="text-center sm:flex justify-evenly p-10">
       {/* Skills icon container */}
       <div class="p-10">
-        <p class="text-2xl sm:text-4xl">Front-End Techonologies</p>
-        <div class="flex justify-center text-2xl sm:text-5xl mt-5">
+        <p class="text-3xl sm:text-4xl">Front-End Techonologies</p>
+        <div class="flex justify-center text-3xl sm:text-5xl mt-5">
           <SiHtml5 className="text-yellow-500" />
           <SiCss3 className="text-blue-500" />
           <SiTailwindcss className="text-blue-400" />
@@ -26,7 +26,7 @@ const Skills = () => {
         </div>
       </div>
       <div class="p-10">
-        <p class="text-2xl sm:text-4xl">Back-End Techonologies</p>
+        <p class="text-3xl sm:text-4xl">Back-End Techonologies</p>
         <div class="text-green-50 flex justify-center  text-2xl sm:text-5xl mt-5">
           <SiNodeDotJs className="text-green-400" />
           <SiPostgresql className="text-blue-500" />

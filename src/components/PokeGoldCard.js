@@ -8,7 +8,7 @@ const PokeGoldCard = () => {
       class="transition 
     duration-300 ease-in-out
     transform hover:-translate-y-1 
-    hover:scale-90 bg-gray-800 flex border 
+    hover:scale-90 bg-gray-800 flex  
      sm:w-3/5 md:w-1/2 lg:p-20 "
     >
       {/* Main card container */}

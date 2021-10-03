@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav class="flex justify-between  p-10 text-xs sm:text-2xl ">
         <div>
           <NavLink
-            className="p-2 sm:p-2 rounded-2xl text-green-200 border-2"
+            className="p-2 sm:p-2 rounded-2xl text-blue-300 border-2"
             to="/"
           >
             y.w
@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <NavLink
           className=" 
-        hover:text-green-500 
+        hover:text-blue-500 
         transition-all"
           to="/"
         >
@@ -22,7 +22,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           className=" 
-        hover:text-green-500 
+        hover:text-blue-500 
         transition-all"
           to="/About"
         >
@@ -30,7 +30,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           className=" 
-        hover:text-green-500 
+        hover:text-blue-500 
         transition-all"
           to="/Projects"
         >
@@ -39,7 +39,7 @@ const Navbar = () => {
         <NavLink
           className=" 
         text-blue-500 underline
-        hover:text-blue-600 
+        hover:text-purple-500 
         transition-all"
           to="/Contact"
         >
