@@ -1,11 +1,17 @@
 import React from 'react'
-import Skills from '../components/Skills'
 import Projectcards from '../components/Projectcards'
+import { motion } from 'framer-motion'
 const Projects = () => {
   return (
-    <div>
+    <motion.div
+      initial={{ x: 0 }}
+      animate={{ y: 100 }}
+      exit={{ y: -600, opacity: 0 }}
+      transition={{ delay: 0.1 }}
+      class="mt-10"
+    >
       <Projectcards />
-    </div>
+    </motion.div>
   )
 }
 

@@ -5,30 +5,33 @@ import {
   SiCss3,
   SiJavascript,
   SiNodeDotJs,
-  SiGithub,
   SiReact,
-  SiPostgresql
+  SiPostgresql,
+  SiPython,
+  SiFlask
 } from 'react-icons/si'
 
 const Skills = () => {
   return (
-    <div class="text-center mt-5 rounded-3xl">
-      <p class="text-2xl sm:text-3xl md:text-4xl text-green-50 ">
-        Technologies
-      </p>
-      {/* skills icon container */}
-      <div class="text-green-50 text-3xl sm:text-4xl mt-5 rounded-2xl">
-        <div class="flex justify-evenly ">
-          <SiHtml5 />
-          <SiCss3 />
-          <SiJavascript />
-          <SiNodeDotJs />
+    <div class="text-center sm:flex justify-evenly p-10 bg-gray-800">
+      {/* Skills icon container */}
+      <div class="p-10">
+        <p class="text-2xl sm:text-4xl">Front-End Techonologies</p>
+        <div class="flex justify-center text-2xl sm:text-5xl mt-5">
+          <SiHtml5 className="text-yellow-500" />
+          <SiCss3 className="text-blue-500" />
+          <SiTailwindcss className="text-blue-400" />
+          <SiJavascript className="text-yellow-400" />
+          <SiReact className="text-blue-300" />
         </div>
-        <div class="flex justify-evenly mt-5">
-          <SiGithub />
-          <SiReact />
-          <SiPostgresql />
-          <SiTailwindcss />
+      </div>
+      <div class="p-10">
+        <p class="text-2xl sm:text-4xl">Back-End Techonologies</p>
+        <div class="text-green-50 flex justify-center  text-2xl sm:text-5xl mt-5">
+          <SiNodeDotJs className="text-green-400" />
+          <SiPostgresql className="text-blue-500" />
+          <SiPython className="text-blue-300" />
+          <SiFlask className="text-red-300" />
         </div>
       </div>
     </div>

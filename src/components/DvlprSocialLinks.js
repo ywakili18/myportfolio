@@ -1,19 +1,23 @@
-import React, { useState } from 'react'
-import { SiHtml5, SiCss3, SiJavascript, SiGithub } from 'react-icons/si'
-const Buttons = () => {
-  const [showText, setShowText] = useState(false)
+import React from 'react'
+import { SiGithub } from 'react-icons/si'
+const DvlprSocialLinks = () => {
   return (
     <div>
       {/* Primary buttons container */}
       <div class="mt-5 mb-5">
         {/* Links */}
         <div class="inline-flex">
-          <a class="" href="http://yousofwpokemongoldmini.surge.sh/">
+          <a
+            class=""
+            href="https://dvlpr-app.herokuapp.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <button
               class=" 
-              text-yellow-500
+              text-purple-400
               text-l sm:text-xl ml-20
-              hover:text-red-800 
+              hover:text-pink-600 
               focus:ring  transition-all m-2 sm:mt-3 underline 
               "
             >
@@ -21,16 +25,18 @@ const Buttons = () => {
             </button>
           </a>
           <a
+            rel="noreferrer"
+            target="_blank"
             class=" inline-flex text-center"
-            href="https://github.com/ywakili18/Pokemon-Mini"
+            href="https://github.com/ywakili18/Dvlpr"
           >
             <button
               class=" 
               w-24
               text-3xl sm:text-4xl
               ml-8
-              text-yellow-500
-              hover:text-red-800
+              text-purple-400
+              hover:text-pink-600
               focus:ring  transition-all"
             >
               <SiGithub />
@@ -41,4 +47,5 @@ const Buttons = () => {
     </div>
   )
 }
-export default Buttons
+
+export default DvlprSocialLinks

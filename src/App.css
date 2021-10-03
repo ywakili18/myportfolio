@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body {
   background-color: rgb(26, 32, 41);
   font-family: 'Josefin Sans', sans-serif;
   color: white;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 nav {
   z-index: 9999;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 40px;
 }

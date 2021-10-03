@@ -2,51 +2,51 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
-    <nav class="flex justify-between p-5 text-l sm:text-2xl fixed top-0 inset-x-0">
-      <NavLink
-        className="transition 
-        duration-300 ease-in-out
-        transform hover:-translate-y-1 
-        hover:scale-110 border-green-600 border-8 p-1
-        rounded-full"
-        to="/"
-      >
-        yw
-      </NavLink>
-      <NavLink
-        className=" 
+    <div>
+      <nav class="flex justify-between  p-10 text-xs sm:text-2xl  border-4 bg-gray-900 ">
+        <div>
+          <NavLink
+            className="p-2 sm:p-2 rounded-2xl text-green-200 border-2"
+            to="/"
+          >
+            y.w
+          </NavLink>
+        </div>
+        <NavLink
+          className=" 
         hover:text-green-500 
         transition-all"
-        to="/"
-      >
-        Home
-      </NavLink>
-      <NavLink
-        className=" 
+          to="/"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          className=" 
         hover:text-green-500 
         transition-all"
-        to="/About"
-      >
-        About
-      </NavLink>
-      <NavLink
-        className=" 
+          to="/About"
+        >
+          About
+        </NavLink>
+        <NavLink
+          className=" 
         hover:text-green-500 
         transition-all"
-        to="/Projects"
-      >
-        Projects
-      </NavLink>
-      <NavLink
-        className=" 
-        text-indigo-500 underline
-        hover:text-purple-600 
+          to="/Projects"
+        >
+          Projects
+        </NavLink>
+        <NavLink
+          className=" 
+        text-blue-500 underline
+        hover:text-blue-600 
         transition-all"
-        to="/Contact"
-      >
-        Contact Me
-      </NavLink>
-    </nav>
+          to="/Contact"
+        >
+          Contact Me
+        </NavLink>
+      </nav>
+    </div>
   )
 }
 export default Navbar

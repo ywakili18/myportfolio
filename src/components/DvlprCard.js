@@ -1,7 +1,7 @@
 import React from 'react'
-import pokemini from '../images/pokemini.gif'
-import PokeCardSocialLinks from './PokeCardSocialLinks'
-const PokeGoldCard = () => {
+import dvlpr from '../images/dvlpr.gif'
+import DvlprSocialLinks from './DvlprSocialLinks'
+const DvlprCard = () => {
   return (
     // Main container
     <div
@@ -22,32 +22,34 @@ const PokeGoldCard = () => {
               class="
                 text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
                 text-transparent bg-clip-text 
-                bg-gradient-to-br from-red-600 to-yellow-600"
+                bg-gradient-to-br from-purple-400 to-pink-800 "
             >
-              Pokemon Gold Mini
+              Dvlpr.
             </p>
             {/* Description */}
             <p
               class="
                   text-sm sm:text-lg md:text-base break-normal 
-                  text-yellow-500
+                  text-purple-400
                   mt-5 italic"
             >
-              Pokemon Gold Mini is an HTML, CSS, and Javascript game hosted on
-              Heroku. This Pokemon inspired game lets you choose between two
-              Pokemon to battle and determine a winner!
+              Dvlpr is an PostgreSQL,Express,React,Node (PERN stack) social
+              media clone that is tailored for web developers. It features user
+              login authentication and a REST api utlizing Express.js, Node.js
+              and Sequelize. The front-end features Tailwindcss as UI library
+              and React as Javascript library. Dvlpr is also hosted on heroku.
             </p>
             {/* Button Component */}
-            <PokeCardSocialLinks />
+            <DvlprSocialLinks />
           </div>
         </div>
         {/* gif showcasing work container */}
         <div class="flex justify-center">
-          <img class="mt-2 h-60 p-2" src={pokemini} />
+          <img class="mt-2 h-60 " src={dvlpr} />
         </div>
       </div>
     </div>
   )
 }
 
-export default PokeGoldCard
+export default DvlprCard
