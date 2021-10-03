@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-body {
-  background-color: rgb(26, 32, 41);
+html {
+  background: url('https://images.unsplash.com/photo-1509226704106-8a5a71ffbfa4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80z');
   font-family: 'Josefin Sans', sans-serif;
   color: white;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 nav {
   z-index: 9999;
@@ -14,4 +17,24 @@ nav {
   width: 100%;
   top: 0;
   padding: 40px;
+}
+#warning-message {
+  display: none;
+}
+
+@media only screen and (orientation: portrait) {
+  #wrapper {
+    display: none;
+  }
+  #warning-message {
+    display: block;
+    color: white;
+  }
+
+  html {
+    background: url('https://images.unsplash.com/photo-1477840539360-4a1d23071046?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80')
+      no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+  }
 }

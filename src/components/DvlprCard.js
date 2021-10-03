@@ -6,23 +6,23 @@ const DvlprCard = () => {
     // Main container
     <div
       class="transition 
-    duration-300 ease-in-out
-    transform hover:-translate-y-1 
-    hover:scale-90 bg-gray-800 flex border-2
-     sm:w-3/5 md:w-1/2 lg:p-20 "
+      duration-300 ease-in-out
+      transform hover:-translate-y-1 
+      hover:scale-90 bg-gray-800 flex border
+       sm:w-3/5 md:w-1/2 lg:p-20"
     >
       {/* Main card container */}
-      <div class="flex-col justify-center mt-10 shadow-inner">
-        {/* Pokemon-Gold mini container */}
+      <div class=" justify-center  shadow-inner">
+        {/* Dvlpr mini container */}
         <div class=" ">
-          {/* Pokemon Description */}
+          {/* Dvlpr Description */}
           <div class="text-center break-all">
             {/* Title */}
             <p
               class="
-                text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
+                text-2xl sm:text-3xl md:text-4xl lg:text-4xl 
                 text-transparent bg-clip-text 
-                bg-gradient-to-br from-purple-400 to-pink-800 "
+                bg-gradient-to-br from-purple-400 to-pink-800 p-2"
             >
               Dvlpr.
             </p>

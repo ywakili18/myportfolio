@@ -57,7 +57,7 @@ const ContactCard = () => {
       >
         <button
           class="text-green-50 
-              text-4xl sm:text-4xl 
+              text-2xl sm:text-4xl 
               hover:text-green-500 
               focus:ring  transition-all  "
         >

@@ -9,7 +9,7 @@ const Projectcards = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
       exit={{ opacity: 0 }}
-      class="sm:flex"
+      class="sm:flex md:flex"
     >
       <PokeGoldCard />
       <DvlprCard />

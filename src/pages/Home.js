@@ -20,14 +20,10 @@ export const Home = () => {
         class="mt-36 sm:mt-40"
       >
         {/* Name description container */}
-        {/* default text is 3xl for mobile  */}
         <div class="text-6xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl">
-          <p>
-            {/* used mark to change specific text color */}
-            Hello, World!{' '}
-          </p>
+          <p>Hello, World! </p>
           I'm
-          <mark class="bg-transparent text-green-400 "> Yousof</mark>
+          <span class="bg-transparent text-blue-300 "> Yousof</span>
         </div>
 
         {/* Typing animation container */}

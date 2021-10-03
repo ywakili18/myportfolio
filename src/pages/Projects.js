@@ -8,7 +8,7 @@ const Projects = () => {
       animate={{ y: 100 }}
       exit={{ y: -600, opacity: 0 }}
       transition={{ delay: 0.1 }}
-      class="mt-10"
+      class="sm:mt-10"
     >
       <Projectcards />
     </motion.div>
