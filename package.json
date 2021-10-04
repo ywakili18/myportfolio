@@ -14,9 +14,9 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "typewriter-effect": "^2.18.2",
-    "web-vitals": "^1.1.2",
-    "homepage": "https://ywakili18.github.io/myportfolio/"
+    "web-vitals": "^1.1.2"
   },
+  "homepage": "https://ywakili18.github.io/myportfolio/",
   "scripts": {
     "start": "craco start",
     "predeploy": "npm run build",
