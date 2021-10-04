@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.45ad23ed.chunk.css",
+    "main.js": "/myportfolio/static/js/main.c3d2d47b.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.c3d2d47b.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.b6d7dc87.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.b6d7dc87.js.map",
+    "static/js/2.23ea6794.chunk.js": "/myportfolio/static/js/2.23ea6794.chunk.js",
+    "static/js/2.23ea6794.chunk.js.map": "/myportfolio/static/js/2.23ea6794.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "static/css/main.45ad23ed.chunk.css.map": "/myportfolio/static/css/main.45ad23ed.chunk.css.map",
+    "static/js/2.23ea6794.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.23ea6794.chunk.js.LICENSE.txt",
+    "static/media/dvlpr.c2f682e4.gif": "/myportfolio/static/media/dvlpr.c2f682e4.gif",
+    "static/media/pokemini.d079257d.gif": "/myportfolio/static/media/pokemini.d079257d.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6d7dc87.js",
+    "static/js/2.23ea6794.chunk.js",
+    "static/css/main.45ad23ed.chunk.css",
+    "static/js/main.c3d2d47b.chunk.js"
+  ]
+}
