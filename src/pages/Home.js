@@ -20,7 +20,7 @@ export const Home = () => {
         class="mt-36 sm:mt-40"
       >
         {/* Name description container */}
-        <div class="text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl p-10 text-center">
+        <div class="text-6xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl p-10 ">
           Yousof.
           <span class="text-blue-300 ">Wakili</span>
         </div>
@@ -38,8 +38,7 @@ export const Home = () => {
                 'Full Stack Engineer',
                 'MERN  Developer',
                 'Deep Learner',
-                'Problem Solver',
-                'Test'
+                'Problem Solver'
               ],
               autoStart: true,
               loop: true,
