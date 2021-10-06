@@ -9,7 +9,7 @@ const DvlprCard = () => {
       duration-300 ease-in-out
       transform hover:-translate-y-1 
       hover:scale-90 shadow-2xl flex 
-       sm:w-3/5 md:w-1/2 lg:p-20"
+       sm:w-3/5 md:w-1/2 lg:p-20 bg-white bg-opacity-10 "
     >
       {/* Main card container */}
       <div class=" justify-center ">
@@ -30,7 +30,7 @@ const DvlprCard = () => {
             <p
               class="
                   text-sm sm:text-lg md:text-base break-normal 
-                  text-purple-400
+                  text-purple-400 
                   mt-5 italic"
             >
               Dvlpr is an PostgreSQL,Express,React,Node (PERN stack) social

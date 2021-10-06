@@ -24,17 +24,17 @@ const Navbar = () => {
           className=" 
         hover:text-blue-500 
         transition-all"
-          to="/About"
+          to="/Projects"
         >
-          About
+          Projects
         </NavLink>
         <NavLink
           className=" 
         hover:text-blue-500 
         transition-all"
-          to="/Projects"
+          to="/About"
         >
-          Projects
+          About
         </NavLink>
         <NavLink
           className=" 

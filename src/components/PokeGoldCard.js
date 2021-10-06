@@ -9,7 +9,7 @@ const PokeGoldCard = () => {
     duration-300 ease-in-out
     transform hover:-translate-y-1 
     hover:scale-90  flex  
-     sm:w-3/5 md:w-1/2 shadow-2xl lg:p-20 "
+     sm:w-3/5 md:w-1/2 shadow-2xl lg:p-20 bg-white bg-opacity-10	"
     >
       {/* Main card container */}
       <div class="flex-col justify-center mt-10 ">
