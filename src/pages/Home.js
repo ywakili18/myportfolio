@@ -36,7 +36,7 @@ export const Home = () => {
             options={{
               strings: [
                 'Full Stack Engineer',
-                'MERN  Developer',
+                'PERN Developer',
                 'Deep Learner',
                 'Problem Solver'
               ],
