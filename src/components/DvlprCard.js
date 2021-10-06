@@ -35,7 +35,7 @@ const DvlprCard = () => {
             >
               Dvlpr is an PostgreSQL,Express,React,Node (PERN stack) social
               media clone that is tailored for web developers. It features user
-              login authentication and a REST api utlizing Express.js, Node.js
+              login authentication and a REST api utilizing Express.js, Node.js
               and Sequelize. The front-end features Tailwindcss as UI library
               and React as Javascript library. Dvlpr is also hosted on heroku.
             </p>
