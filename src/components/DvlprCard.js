@@ -37,7 +37,7 @@ const DvlprCard = () => {
               media clone that is tailored for web developers. It features user
               login authentication and a REST api utilizing Express.js, Node.js
               and Sequelize. The front-end features Tailwindcss as UI library
-              and React as Javascript library. Dvlpr is also hosted on heroku.
+              and React as JavaScript library. Dvlpr is also hosted on heroku.
             </p>
             {/* Button Component */}
             <DvlprSocialLinks />

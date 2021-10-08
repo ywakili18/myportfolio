@@ -33,7 +33,7 @@ const PokeGoldCard = () => {
                   text-yellow-500
                   mt-5 italic"
             >
-              Pokemon Gold Mini is an HTML, CSS, and Javascript game hosted on
+              Pokemon Gold Mini is an HTML, CSS, and JavaScript game hosted on
               Heroku. This Pokemon inspired game lets you choose between two
               Pokemon to battle and determine a winner!
             </p>
