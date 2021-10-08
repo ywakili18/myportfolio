@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import yousof_w from '../images/yousof_w.pdf'
 const ContactCard = () => {
   return (
     <div class="rounded-3xl mt-10  py-10">
@@ -59,9 +60,24 @@ const ContactCard = () => {
           class="text-green-50 
               text-2xl sm:text-4xl 
               hover:text-green-500 
-              focus:ring  transition-all  "
+              focus:ring  transition-all underline "
         >
           ywakili18@gmail.com
+        </button>
+      </a>
+      <a
+        href={yousof_w}
+        class="text-green-600 justify-center flex text-2xl mt-4"
+        download
+      >
+        {' '}
+        <button
+          class="text-green-50 
+          text-2xl  
+          hover:text-green-500 
+          focus:ring  transition-all underline"
+        >
+          Click here to view my resume
         </button>
       </a>
     </div>
