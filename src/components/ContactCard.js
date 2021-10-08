@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import yousof_w from '../images/yousof_w.pdf'
 const ContactCard = () => {
   return (
-    <div class="mt-36 border bg-gray-800 w-1/2 py-10 mx-auto ">
+    <div class="mt-36 border bg-gray-700 w-1/2 py-10 mx-auto ">
       <div class="mt-10">
         <p class="text-blue-50 text-center text-2xl md:text-3xl">
           Let Me Build Your New{' '}
