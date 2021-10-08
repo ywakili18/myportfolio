@@ -3,9 +3,9 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import yousof_w from '../images/yousof_w.pdf'
 const ContactCard = () => {
   return (
-    <div class="rounded-3xl mt-10  py-10">
-      <div class="mt-20">
-        <p class="text-blue-50 text-center text-2xl md:text-6xl">
+    <div class="mt-36 border bg-gray-800 w-1/2 py-10 mx-auto ">
+      <div class="mt-10">
+        <p class="text-blue-50 text-center text-2xl md:text-3xl">
           Let Me Build Your New{' '}
           <span
             class="
@@ -15,7 +15,7 @@ const ContactCard = () => {
             Idea
           </span>
         </p>
-        <p class="text-blue-100 text-center text-xs md:text-2xl break-normal mt-10">
+        <p class="text-blue-100 text-center text-xs md:text-xl break-normal mt-10">
           Feel free to reach out to me via LinkedIn, GitHub, or Email me for any
           of your hiring or business needs.
         </p>
@@ -30,7 +30,7 @@ const ContactCard = () => {
         >
           <button
             class="text-blue-100 
-          text-6xl sm:text-6xl 
+          text-4xl sm:text-6xl 
               hover:text-green-500 
               focus:ring  transition-all  "
           >
@@ -40,7 +40,7 @@ const ContactCard = () => {
         <a rel="noreferrer" target="_blank" href="https://github.com/ywakili18">
           <button
             class="text-blue-100 
-              text-6xl sm:text-6xl 
+              text-4xl sm:text-6xl 
               hover:text-green-500 
               focus:ring  transition-all  "
           >
@@ -58,7 +58,7 @@ const ContactCard = () => {
       >
         <button
           class="text-green-50 
-              text-2xl sm:text-4xl 
+          text-lg sm:text-xl 
               hover:text-green-500 
               focus:ring  transition-all underline "
         >
@@ -73,7 +73,7 @@ const ContactCard = () => {
         {' '}
         <button
           class="text-green-50 
-          text-2xl  
+          text-lg sm:text-xl
           hover:text-green-500 
           focus:ring  transition-all underline"
         >
