@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import yousof_w from '../images/yousof_w.pdf'
+import ywakili from '../images/ywakili.pdf'
 const ContactCard = () => {
   return (
     <div class="mt-36 border bg-gray-700 w-1/2 py-10 mx-auto ">
@@ -66,7 +66,7 @@ const ContactCard = () => {
         </button>
       </a>
       <a
-        href={yousof_w}
+        href={ywakili}
         class="text-green-600 justify-center flex text-2xl mt-4"
         download
       >
