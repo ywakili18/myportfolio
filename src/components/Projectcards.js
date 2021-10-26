@@ -1,5 +1,6 @@
 import PokeGoldCard from './PokeGoldCard'
 import DvlprCard from './DvlprCard'
+import TrakflowCard from './TrakflowCard'
 import React from 'react'
 import { motion } from 'framer-motion'
 const Projectcards = () => {
@@ -11,8 +12,9 @@ const Projectcards = () => {
       exit={{ opacity: 0 }}
       class="sm:flex md:flex"
     >
-      <PokeGoldCard />
+      <TrakflowCard />
       <DvlprCard />
+      <PokeGoldCard />
     </motion.div>
   )
 }
