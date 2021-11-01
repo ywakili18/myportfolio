@@ -30,6 +30,8 @@ const TrakflowSocialLinks = () => {
             class=" inline-flex text-center"
             href="https://github.com/ywakili18/trakflow"
           >
+            {/* button */}
+
             <button
               class=" 
               w-24
